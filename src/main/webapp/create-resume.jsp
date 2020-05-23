@@ -39,7 +39,7 @@
           <div class="step">
             <div class="form-control">
               <label for="professional_experience">Professional experience</label>
-              <textarea name="training" id="professional_experience"></textarea>
+              <textarea name="professional_experience" id="professional_experience"></textarea>
             </div>
           </div>
           <div class="step">

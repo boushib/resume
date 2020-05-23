@@ -4,27 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Resume Management</title>
+  <title>Resume Management - Create Resume</title>
   <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
-  <nav>
-    <div class="container">
-      <div class="nav-brand">
-        <a href="index.jsp">Resume Management</a>
-      </div>
-      <ul class="main-menu">
-        <li><a href="welcome.html">Create Resume</a></li>
-        <li><a href="#">My Resume</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+  <%@ include file="navbar.jsp" %>
   <main class="create-resume">
     <div class="container">
       <div class="form-box">
         <h2>Create Resume</h2>
-        <form action="/create-resume" method="post">
+        <form action="create-resume" method="post">
           <div class="step active">
             <div class="form-control">
               <label for="first_name">First name</label>

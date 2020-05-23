@@ -6,12 +6,21 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>
-    <servlet-name>Resume</servlet-name>
-    <servlet-class>com.boushib.servlets.Resume</servlet-class>
+    <servlet-name>CreateResume</servlet-name>
+    <servlet-class>com.boushib.servlets.CreateResume</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Resume</servlet-name>
+    <servlet-name>CreateResume</servlet-name>
     <url-pattern>/create-resume</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>My Resume</servlet-name>
+    <servlet-class>com.boushib.servlets.MyResume</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>My Resume</servlet-name>
+    <url-pattern>/my-resume</url-pattern>
   </servlet-mapping>
   
 </web-app>

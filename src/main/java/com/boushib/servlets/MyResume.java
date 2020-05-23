@@ -7,13 +7,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "Resume")
-public class Resume extends HttpServlet {
+@WebServlet(name = "MyResume")
+public class MyResume extends HttpServlet {
   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
   }
 
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    this.getServletContext().getRequestDispatcher("welcome.html").forward(request, response);
+    this.getServletContext().getRequestDispatcher("my-resume.jsp").forward(request, response);
   }
 }

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #555;
+}
+
+.container {
+  padding: 0 120px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+nav {
+  background-color: #f5f5f5;
+  height: 60px;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-brand {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav .main-menu {
+  display: flex;
+}
+
+nav .main-menu li {
+  margin: 20px;
+  color: #666;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #8BC34A;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea {
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  padding: 13px 20px;
+}
+
+textarea {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, .4);
+}
+
+.form-control {
+  margin-bottom: 16px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+main {
+  min-height: calc(100vh - 120px);
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+footer .container {
+  text-align: center;
+}
+
+/* Create Resume Page */
+.create-resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-resume .form-box {
+  padding: 32px 40px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  width: 500px;
+  box-shadow: 0 0 120px rgba(0, 0, 0, 0.16);
+}
+
+.create-resume form {
+  margin: 16px 0;
+}
+
+.create-resume form .step {
+  display: none;
+}
+
+.create-resume form .step.active {
+  display: block;
+}
+
+.steps-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-dots .dot {
+  height: 12px;
+  width: 12px;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.steps-dots .dot.active {
+  background-color: #AED581;
+}

@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+    <servlet-name>Resume</servlet-name>
+    <servlet-class>com.boushib.servlets.Resume</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Resume</servlet-name>
+    <url-pattern>/create-resume</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

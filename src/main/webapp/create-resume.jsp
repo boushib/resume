@@ -44,8 +44,8 @@
           </div>
           <div class="step">
             <div class="form-control">
-              <label for="training">Training</label>
-              <textarea name="training" id="training"></textarea>
+              <label for="education">Education</label>
+              <textarea name="education" id="education"></textarea>
             </div>
           </div>
           <div class="step">

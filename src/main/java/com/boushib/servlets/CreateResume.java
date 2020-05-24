@@ -18,7 +18,7 @@ public class CreateResume extends HttpServlet {
     String phone = request.getParameter("phone");
     String address = request.getParameter("address");
     String professional_experience = request.getParameter("professional_experience");
-    String training = request.getParameter("training");
+    String education = request.getParameter("education");
     String skills = request.getParameter("skills");
 
     request.setAttribute("first_name", first_name);
@@ -27,7 +27,7 @@ public class CreateResume extends HttpServlet {
     request.setAttribute("phone", phone);
     request.setAttribute("address", address);
     request.setAttribute("professional_experience", professional_experience);
-    request.setAttribute("training", training);
+    request.setAttribute("education", education);
     request.setAttribute("skills", skills);
 
     this.getServletContext().getRequestDispatcher("my-resume.jsp").forward(request, response);

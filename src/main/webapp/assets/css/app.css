@@ -196,6 +196,10 @@ footer .container {
   justify-content: space-between;
 }
 
+.my-resume .card .user-info .job-title {
+  color: #aaa;
+}
+
 .my-resume .card .user-info img {
   height: 100px;
   width: 100px;
@@ -204,6 +208,19 @@ footer .container {
 
 .my-resume .card ul:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.my-resume .card ul li {
+  display: flex;
+  align-items: center;
+}
+
+.my-resume .card ul li .icon {
+  margin-right: 12px;
+}
+
+.my-resume .card ul li .icon span {
+  color: #8BC34A;
 }
 
 .my-resume .card ul li:not(:last-child) {

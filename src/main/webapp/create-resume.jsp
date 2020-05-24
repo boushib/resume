@@ -60,6 +60,7 @@
           </div>
           <button class="btn" type="button" id="create-resume-form-btn">Next</button>
         </form>
+        <div class="feedback-area" id="feedback-area"></div>
         <div class="steps-dots">
           <div class="dot active"></div>
           <div class="dot"></div>

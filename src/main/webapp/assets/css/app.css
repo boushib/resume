@@ -155,6 +155,10 @@ footer .container {
   display: block;
 }
 
+.create-resume .feedback-area {
+  color: #ef5350;
+}
+
 .steps-dots {
   display: flex;
   align-items: center;

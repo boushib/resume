@@ -14,6 +14,7 @@ public class CreateResume extends HttpServlet {
 
     String first_name = request.getParameter("first_name");
     String last_name = request.getParameter("last_name");
+    String job_title = request.getParameter("job_title");
     String email = request.getParameter("email");
     String phone = request.getParameter("phone");
     String address = request.getParameter("address");
@@ -23,6 +24,7 @@ public class CreateResume extends HttpServlet {
 
     request.setAttribute("first_name", first_name);
     request.setAttribute("last_name", last_name);
+    request.setAttribute("job_title", job_title);
     request.setAttribute("email", email);
     request.setAttribute("phone", phone);
     request.setAttribute("address", address);

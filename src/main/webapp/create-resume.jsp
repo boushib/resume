@@ -24,6 +24,10 @@
               <input type="text" name="last_name" id="last_name" placeholder="Enter your last name">
             </div>
             <div class="form-control">
+              <label for="job_title">Job title</label>
+              <input type="text" name="job_title" id="job_title" placeholder="Enter your job title">
+            </div>
+            <div class="form-control">
               <label for="email">Email</label>
               <input type="email" name="email" id="email" placeholder="Enter your email">
             </div>

@@ -9,6 +9,7 @@ resumeFormButton.addEventListener("click", e => {
   e.preventDefault()
   currentResumeFormStep++
 
+  if ( currentResumeFormStep === 3 ) resumeFormButton.innerText = "Submit"
   if ( currentResumeFormStep === 4 ) return resumeForm.submit()
 
   resumeFormSteps.forEach(step => step.classList.remove("active"))
